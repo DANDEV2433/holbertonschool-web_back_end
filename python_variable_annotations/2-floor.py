@@ -3,7 +3,6 @@
 
 import math
 
-""""""
 """
 function witch returns the floor of the float.
 """
