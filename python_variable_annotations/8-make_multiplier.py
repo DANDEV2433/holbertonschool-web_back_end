@@ -11,7 +11,7 @@ and returns a function that multiplies a float by multiplier.
 """
 
 
-def make_multiplier(multiplayer: float) -> Callable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     function that takes a float multiplier as argument
     and returns a function that multiplies a float by multiplier.
@@ -21,5 +21,5 @@ def make_multiplier(multiplayer: float) -> Callable[[float], float]:
         function that takes a float x as argument
         and returns the product of x and multiplier.
         """
-        return x * multiplayer
+        return x * multiplier
     return multiply
