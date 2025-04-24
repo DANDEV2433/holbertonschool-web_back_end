@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Import List for type hinting a list of floats (List[float])
+Import Tuple and Union for type hinting
 """
 from typing import Union, Tuple
 
@@ -14,9 +14,9 @@ and should be annotated as a float
 """
 
 
-def to_kv(K: str, v: Union[int, float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     a list mxd_lst of integers and floats
     and returns their sum as a float.
     """
-    return str(K), float(v) ** 2
+    return str(k), float(v ** 2)
