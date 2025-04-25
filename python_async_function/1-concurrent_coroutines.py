@@ -1,4 +1,4 @@
-#!/usr/bin/env python 3
+#!/usr/bin/env python3
 """
 ascyncio can be used to write asynchronous code that can wait
 without blocking and run several tasks at the same time.
@@ -6,10 +6,6 @@ List can be used to store a list of values.
 """
 import asyncio
 from typing import List
-
-"""
-import wait_random from 0-basic_async_syntax
-"""
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
