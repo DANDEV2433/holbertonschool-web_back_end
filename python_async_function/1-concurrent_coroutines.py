@@ -2,12 +2,20 @@
 """
 ascyncio can be used to write asynchronous code that can wait
 without blocking and run several tasks at the same time.
-random can be used to generate random values.
+List can be used to store a list of values.
 """
 import asyncio
 from typing import List
 
+"""
+import wait_random from 0-basic_async_syntax
+"""
 wait_random = __import__('0-basic_async_syntax').wait_random
+
+"""
+function that returns a list of all delays (floating-point values)
+using the wait_random function. The list of delays is in ascending order.
+"""
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
