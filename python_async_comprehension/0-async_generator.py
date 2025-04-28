@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+ import asyncio which allows you to wait without
+ blocking program execution
+ import random which allows you to generate random numbers"""
 import asyncio
 import random
 
