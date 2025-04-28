@@ -19,11 +19,7 @@ async def measure_runtime():
     even with 4 calls because they are made in parallel with asyncio.gather.
     """
     start = time.perf_counter()
-    await asyncio.gather(
-        async_comprehension(),
-        async_comprehension(),
-        async_comprehension(),
-        async_comprehension()
-    )
+    calls = [async_comprehension() for _ in range(4)]
+    await asyncio.gather(*calls)
     end = time.perf_counter()
     return end - start
