@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+import the async_generator function from the 0-async_generator module.
+"""
 async_generator = __import__('0-async_generator').async_generator
 
 
