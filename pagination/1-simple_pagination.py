@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Module for pagination for finding popular baby names
+"""
 import csv
 from typing import List, Tuple
 
