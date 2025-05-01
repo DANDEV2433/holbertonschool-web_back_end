@@ -8,7 +8,7 @@ db = client.logs
 collection = db.nginx
 
 count = collection.count_documents({})
-print (f"{count} logs")
+print(f"{count} logs")
 methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 print("Methods:")
 for method in methods:
